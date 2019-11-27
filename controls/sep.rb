@@ -1,5 +1,4 @@
 control 'symantec' do
-  impact 'high'
   title 'Symantec Endpoint Protection is installed'
   desc 'Symantec Endpoint Protection should be installed'
   describe service('symcfgd') do

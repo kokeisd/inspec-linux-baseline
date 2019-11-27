@@ -1,9 +1,8 @@
 control 'chef-client' do
-  impact 'medium'
-  title 'Chef Client is installed'
-  desc 'Chef Client should be installed'
-  
-  chef_client_version = '14.7.17'
+  title 'Chef client setup'
+  desc  'Chef client setup'
+
+  chef_client_version = '14.4.56'
   
   describe command ('chef-client -v') do
     its ('stdout') { should match "#{chef_client_version}" }
