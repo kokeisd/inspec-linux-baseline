@@ -18,5 +18,5 @@ inspec exec inspec-linux-baseline --user=<username> --password='<password>' -t s
 ```
 Or directly execute with the stable build
 ```
-inspec exec https://xxxx/artifactory/tools-local/etsasia-tools/inspec-linux-baseline-0.1.0.tar.gz --user=<username> --password='<password>' -t ssh://<hostname> --sudo-password='<password>' --sudo
+inspec exec https://github.com/kokeisd/inspec-linux-baseline/raw/master/build/inspec-linux-baseline-0.1.0.tar.gz --user=<username> --password='<password>' -t ssh://<hostname> --sudo-password='<password>' --sudo
 ```
