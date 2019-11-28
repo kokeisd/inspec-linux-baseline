@@ -1,6 +1,6 @@
 control 'Qualys-conf' do
-  title 'Qualys agent setup'
-  desc  'Qualys agent setup'
+  title 'Qualys agent check'
+  desc  'Qualys agent check'
 
   describe service('qualys-cloud-agent') do
     it { should be_enabled }

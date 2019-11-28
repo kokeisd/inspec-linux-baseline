@@ -1,6 +1,6 @@
-control 'chef-client' do
-  title 'Chef client setup'
-  desc  'Chef client setup'
+control 'chef-client-check' do
+  title 'Chef client check'
+  desc  'Chef client check'
 
   chef_client_version = '14.4.56'
   

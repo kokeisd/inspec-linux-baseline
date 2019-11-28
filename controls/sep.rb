@@ -1,6 +1,7 @@
-control 'symantec' do
-  title 'Symantec Endpoint Protection is installed'
-  desc 'Symantec Endpoint Protection should be installed'
+control 'Symantec-check' do
+  title 'Symantec Endpoint Protection check'
+  desc 'Symantec Endpoint Protection check'
+  
   describe service('symcfgd') do
     it { should be_enabled }
     it { should be_running }

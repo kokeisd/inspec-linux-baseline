@@ -1,6 +1,6 @@
-control 'chrony-conf' do
-  title 'Chrony setup'
-  desc 'Chrony setup'
+control 'Chrony-check' do
+  title 'Chrony check'
+  desc 'Chrony check'
 
   describe package('chrony') do
     it { should be_installed }

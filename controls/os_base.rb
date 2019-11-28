@@ -1,6 +1,6 @@
-control 'OS Configurations' do
-  title 'OS Configurations'
-  desc  'OS Configurations'
+control 'OS-check' do
+  title 'OS checkcheck'
+  desc 'OS checkcheck'
 
   case os[:family]
     when 'debian'

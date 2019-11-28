@@ -1,6 +1,6 @@
-control 'syslog-ng-conf' do
-  title 'Syslog-ng setup'
-  desc 'Syslog-ng setup'
+control 'syslog-ng-check' do
+  title 'Syslog-ng check'
+  desc 'Syslog-ng check'
 
   case os[:family]
     when 'debian'

@@ -1,6 +1,6 @@
-control 'NR-conf' do
-  title 'NewRelic setup'
-  desc  'NewRelic setup'
+control 'NR-check' do
+  title 'NewRelic check'
+  desc  'NewRelic check'
 
   describe package('newrelic-infra') do
     it { should be_installed }

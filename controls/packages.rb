@@ -1,6 +1,6 @@
-control 'Packages-setup' do
-  title 'Packages-setup'
-  desc 'Packages-setup'
+control 'Packages-check' do
+  title 'Packages-check'
+  desc 'Packages-check'
 
   describe package('chrony') do
     it { should be_installed }

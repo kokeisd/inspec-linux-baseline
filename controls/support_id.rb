@@ -1,6 +1,6 @@
-control 'Default-Support-ID' do
-  title 'Default-Support-ID'
-  desc 'Default-Support-ID'
+control 'Default-Support-ID-check' do
+  title 'Default-Support-ID check'
+  desc 'Default-Support-ID check'
 
   users = ['sysadmin1','sysadmin2','dbadmin1', 'dbadmin2', 'mwadmin1','mwadmin2','backupsvc']
   sudousers = ['sysadmin1','sysadmin2']  
