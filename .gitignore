@@ -1,0 +1,13 @@
+### Inspec lock file ###
+inspec.lock
+
+### ChefCookbook ###
+.vagrant
+/cookbooks
+
+# Bundler
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml

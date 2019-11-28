@@ -1,6 +1,6 @@
-control 'firewall-conf' do
-  title 'Firewall setup'
-  desc 'Firewall setup'
+control 'Firewall-check' do
+  title 'Firewall check'
+  desc 'Firewall check'
 
   case os[ :family]
     when 'debian'
